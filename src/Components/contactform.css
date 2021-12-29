@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
 .contactHeader {
-   position: absolute;
+  position: absolute;
   z-index: 2;
   font-size: 26px;
-    font-family: 'Montserrat';
+  font-family: 'Montserrat';
 }
-
 
 /* Contact Form Container */
 
@@ -46,3 +44,26 @@
   border-width: 1px;
 }
 
+/* Contact Form Submit Button */
+.submitButton {
+  background-color: transparent;
+  position: relative;
+  height: 10%;
+  width: 15%;
+  border-width: 1px;
+  border-color: #28c2ff;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  background-color: #28c2ff;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.submitButton:hover {
+  transform: scale(1.1);
+  background-color: #08a4e2;
+  border-color: #08a4e2;
+  transition-duration: 300ms;
+}

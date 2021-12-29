@@ -50,7 +50,7 @@ function ContactForm() {
           />{' '}
           <br />
           <button
-            className="submitBtn"
+            className="submitButton"
             type="submit"
             disabled={state.submitting}
           >
