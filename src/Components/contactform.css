@@ -5,6 +5,8 @@
   z-index: 2;
   font-size: 2em;
   font-family: 'Montserrat';
+  top: 155%;
+  left: 43%;
 }
 
 /* Contact Form Container */
@@ -12,6 +14,8 @@
 .formContainer {
   position: absolute;
   display: flex;
+  top: 155%;
+  left: 35%;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
@@ -31,6 +35,8 @@
   border-color: rgb(173, 173, 173);
   border-radius: 5px;
   border-width: 1px;
+ position: relative;
+ left: 20%;
 }
 
 /* Message Text Area */
@@ -42,6 +48,8 @@
   border-color: rgb(173, 173, 173);
   border-radius: 5px;
   border-width: 1px;
+  position: relative;
+ left: 20%;
 }
 
 /* Contact Form Submit Button */
@@ -59,6 +67,8 @@
   font-family: 'Montserrat';
   cursor: pointer;
   transition: 250ms;
+  position: relative;
+ left: 40%;
 }
 
 .submitButton:hover {
