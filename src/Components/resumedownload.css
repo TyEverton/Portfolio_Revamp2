@@ -1,0 +1,26 @@
+/* Resume Download Button */
+.downloadBtn {
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  height: 5%;
+  width: 5%;
+  top: 60.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28C2FF;
+  border-color: #28C2FF;
+  border-width: 0;
+  border-radius: 15%;
+  font-size: 15px;
+  color: white;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.downloadBtn:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}

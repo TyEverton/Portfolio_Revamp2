@@ -1,0 +1,30 @@
+/* Name Intro */
+.nameIntro {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+}
+
+
+/* About Me Intro */
+.aboutMeIntro {
+  position: absolute;
+  bottom: 59%;
+  left: 50%;
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+}
+
+
+/* About Me Body */
+.aboutMeBody {
+  position: absolute;
+  bottom: 43%;
+  left: 50%;
+  font-family: 'Montserrat';
+  font-size: 1em;
+  text-align: left;
+  width: 47%;
+}

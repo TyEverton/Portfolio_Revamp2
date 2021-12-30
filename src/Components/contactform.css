@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/* Contact Header */
 .contactHeader {
   position: absolute;
   z-index: 2;
@@ -24,7 +25,7 @@
   width: 30%;
   background-color: rgb(247, 247, 247);
   border-color: rgb(247, 247, 247);
-  border-radius: 10px;
+  border-radius: 2%;
 }
 
 /* Name and Email Inputs */

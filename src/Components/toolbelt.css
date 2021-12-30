@@ -24,14 +24,14 @@
   border: solid;
   padding: 4%;
   border-color: rgb(247, 247, 247);
-  border-radius: 10px;
+  border-radius: 2%;
   left: 35%;
   background-color: rgb(247, 247, 247);
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
 }
 
 
-/* Individual Icons */
+/* Individual Icons | Hover Class is Below Icon */
 .htmlIcon {
    border-style: solid;
   background-color: rgb(255, 255, 255);
