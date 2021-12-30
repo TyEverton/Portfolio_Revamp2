@@ -15,19 +15,19 @@ const ToolBelt = () => {
         <div className="htmlIcon">
           <FaHtml5 />
         </div>
-        <div>
+        <div className="cssIcon">
           <FaCss3Alt />
         </div>
-        <div>
+        <div className="jsIcon">
           <FaJsSquare />
         </div>
-        <div>
+        <div className="nodeIcon">
           <FaNodeJs />
         </div>
-        <div>
+        <div className="reactIcon">
           <FaReact />
         </div>
-        <div>
+        <div className="gitIcon">
           <FaGitSquare />
         </div>
       </section>
