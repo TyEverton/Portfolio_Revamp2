@@ -1,9 +1,9 @@
 /* Resume Download Button */
 .downloadBtn {
   background-color: transparent;
-  position: absolute;
-  left: 2%;
-   top: 60.5%;
+  position: fixed;
+  left: 1%;
+   top: 18%;
   height: 5%;
   width: 5%;
   display: flex;

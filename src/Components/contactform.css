@@ -6,7 +6,7 @@
   z-index: 2;
   font-size: 2em;
   font-family: 'Montserrat';
-  top: 155%;
+  top: 250%;
   left: 43%;
 }
 
@@ -14,7 +14,7 @@
 .formContainer {
   position: absolute;
   display: flex;
-  top: 155%;
+  top: 255%;
   left: 35%;
   flex-direction: column;
   flex-wrap: nowrap;

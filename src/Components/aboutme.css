@@ -18,7 +18,7 @@
 /* Name Intro */
 .nameIntro {
   position: absolute;
-  top: 8%;
+  top: 18%;
   left: 2%;
   font-family: 'Montserrat';
   font-size: 1.5em;
@@ -29,6 +29,7 @@
 .aboutMeIntro {
   position: absolute;
   left: 2%;
+  top: 15%;
   font-family: 'Montserrat';
   font-size: 1.5em;
 }

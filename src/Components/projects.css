@@ -1,0 +1,119 @@
+/* Projects Header */
+.projectsHeader {
+  background-color: transparent;
+  position: absolute;
+  left: 30%;
+  height: 45px;
+  width: 6.5%;
+  top: 144%;
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+
+/* Project Container */
+.projectContainer {
+  position: absolute;
+  top: 150%;
+  left: 28.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.05);
+}
+
+/* MealItYourWay Content*/
+.mealPhoto {
+  position: relative;
+  border: solid;
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 2px;
+  left: 1.5em;
+  top: 1em;
+  font-size: .5em;
+}
+
+.mealProjectHeader {
+  position: absolute;
+  top: 130%;
+  left: 5%;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  z-index: 1;
+}
+
+.mealProjectBody {
+  position: absolute;
+  text-align: left;
+  top: 2%;
+  left: 9%;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: white;
+  height: 45%;
+  width: 80%;
+}
+
+.mealItSummary {
+  position: relative;
+  width: 45%;
+  left: 5%;
+  top: 50%;
+  z-index: 1;
+}
+
+/* Google Clone Content */
+.googleCloneProjectBody {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 9%;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: white;
+  height: 45%;
+  width: 80%;
+}
+
+.googleCloneHeader {
+  position: absolute;
+  bottom: 170%;
+  left: 53%;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+
+.googleCloneSummary {
+  position: relative;
+  width: 45%;
+  left: 53%;
+  bottom: 170%;
+}
+
+
+.googleClonePhoto {
+  position: relative;
+  border: solid;
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 2px;
+  left: 46em;
+  top: 2em;
+  font-size: .5em;
+}

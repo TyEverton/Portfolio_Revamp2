@@ -4,6 +4,7 @@ import ToolBelt from "./Components/ToolBelt"
 import ResumeDownload from "./Components/ResumeDownload"
 import AboutMe from "./Components/AboutMe"
 import NavBar from "./Components/NavBar"
+import Projects from "./Components/Projects"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ResumeDownload />
       <AboutMe />
       <NavBar />
+      <Projects />
     </div>
   )
 }
