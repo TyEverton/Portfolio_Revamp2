@@ -11,10 +11,11 @@
   position: absolute;
   top: 105%;
   border: solid;
-  border-color: rgb(238, 236, 236);
+  padding: 2%;
+  border-color: rgb(255, 255, 255);
   border-radius: 10px;
   left: 32%;
-  background-color: rgb(238, 236, 236);
+  background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
 }
 
