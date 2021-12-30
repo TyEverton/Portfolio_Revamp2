@@ -1,6 +1,5 @@
 import React from 'react'
 import './toolbelt.css'
-import { FaGithub } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaReact } from 'react-icons/fa'
 import { FaGitSquare } from 'react-icons/fa'
@@ -12,16 +11,26 @@ import { FaNodeJs } from 'react-icons/fa'
 const ToolBelt = () => {
   return (
     <div>
-      <h3 className = "toolBeltIcons">
-        <FaGithub />
-        <FaHtml5/>
-        <FaReact />
-        <FaGitSquare />
-        <FaCss3Alt />
-        <FaJsSquare />
-        <FaNodeJs />
-
-      </h3>
+      <section className="toolBeltIcons">
+        <div className="htmlIcon">
+          <FaHtml5 />
+        </div>
+        <div>
+          <FaCss3Alt />
+        </div>
+        <div>
+          <FaJsSquare />
+        </div>
+        <div>
+          <FaNodeJs />
+        </div>
+        <div>
+          <FaReact />
+        </div>
+        <div>
+          <FaGitSquare />
+        </div>
+      </section>
     </div>
   )
 }

@@ -1,9 +1,24 @@
+/* Tool Belt Overall */
 .toolBeltIcons {
-  font-size: 5em;
+  font-size: 4em;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: stretch;
 	align-content: stretch;
+}
+
+
+/* Individual Icons */
+.htmlIcon {
+  color: orange;
+  border: solid;
+  padding-top: 9px;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-width: thin;
+  border-color: red;
+  border-radius: 5px;
 }
