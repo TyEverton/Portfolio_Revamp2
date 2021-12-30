@@ -11,6 +11,7 @@ import { FaNodeJs } from 'react-icons/fa'
 const ToolBelt = () => {
   return (
     <div>
+      <h2 className="toolBeltHeader">My Tool Belt</h2>
       <section className="toolBeltIcons">
         <div className="htmlIcon">
           <FaHtml5 />
