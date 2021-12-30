@@ -1,8 +1,25 @@
+/* About Me Container */
+.aboutMeContainer {
+   position: absolute;
+  display: flex;
+  top: 15%;
+  left: 35%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: left;
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
+  height: 30%;
+  width: 45%;
+  background-color: rgb(247, 247, 247);
+  border-color: rgb(247, 247, 247);
+  border-radius: 2%;
+}
 /* Name Intro */
 .nameIntro {
   position: absolute;
-  bottom: 55%;
-  left: 50%;
+  top: 8%;
+  left: 2%;
   font-family: 'Montserrat';
   font-size: 1.5em;
 }
@@ -11,8 +28,8 @@
 /* About Me Intro */
 .aboutMeIntro {
   position: absolute;
-  bottom: 59%;
-  left: 50%;
+  top: -5%;
+  left: 2%;
   font-family: 'Montserrat';
   font-size: 1.5em;
 }
@@ -21,10 +38,10 @@
 /* About Me Body */
 .aboutMeBody {
   position: absolute;
-  bottom: 43%;
-  left: 50%;
+  top: 40%;
+  left: 2%;
   font-family: 'Montserrat';
-  font-size: 1em;
+  font-size: 1.3em;
   text-align: left;
-  width: 47%;
+  width: 95%;
 }
