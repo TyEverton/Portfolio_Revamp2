@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: left;
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
-  height: 30%;
+  height: 22%;
   width: 45%;
   background-color: rgb(247, 247, 247);
   border-color: rgb(247, 247, 247);
@@ -28,7 +28,6 @@
 /* About Me Intro */
 .aboutMeIntro {
   position: absolute;
-  top: -5%;
   left: 2%;
   font-family: 'Montserrat';
   font-size: 1.5em;
@@ -38,7 +37,7 @@
 /* About Me Body */
 .aboutMeBody {
   position: absolute;
-  top: 40%;
+  top: 5%;
   left: 2%;
   font-family: 'Montserrat';
   font-size: 1.3em;

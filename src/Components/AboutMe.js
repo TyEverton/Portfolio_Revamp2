@@ -4,11 +4,9 @@ import './aboutme.css'
 const AboutMe = () => {
   return (
     <div>
+      <h3 className="aboutMeIntro">About Me</h3>
+      <h3 className="nameIntro">I am Ty Everton, and I am a Web Developer.</h3>
       <section className="aboutMeContainer">
-        <h3 className="aboutMeIntro">Hello.</h3>
-        <h3 className="nameIntro">
-          I am Ty Everton, and I am a Web Developer.
-        </h3>
         <p className="aboutMeBody">
           I am a Web Developer with a background in sales. My 4 years of sales
           experience gives me a strong foundation of client interaction,
