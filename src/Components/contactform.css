@@ -4,24 +4,24 @@
 .contactHeader {
   position: absolute;
   z-index: 2;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Montserrat';
-  top: 250%;
-  left: 43%;
+  top: 265%;
+  left: 36%;
 }
 
 /* Contact Form Container */
 .formContainer {
   position: absolute;
   display: flex;
-  top: 255%;
+  top: 270%;
   left: 35%;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: left;
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
-  height: 50%;
+  height: 40%;
   width: 30%;
   background-color: rgb(247, 247, 247);
   border-color: rgb(247, 247, 247);
@@ -69,7 +69,8 @@
   cursor: pointer;
   transition: 250ms;
   position: relative;
- left: 40%;
+  left: 40%;
+  top: 5%;
 }
 
 .submitButton:hover {

@@ -5,7 +5,7 @@
   left: 30%;
   height: 45px;
   width: 6.5%;
-  top: 144%;
+  top: 154.5%;
   font-size: 1.5em;
   color: black;
   font-family: 'Montserrat';
@@ -15,12 +15,12 @@
 /* Project Container */
 .projectContainer {
   position: absolute;
-  top: 150%;
+  top: 160%;
   left: 28.5%;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 1%;
   width: 800px;
   height: 800px;
   background-color: rgb(248, 248, 248);
@@ -33,17 +33,17 @@
   border: solid;
   border-color: rgb(219, 219, 219);
   border-width: 1px;
-  border-radius: 20px;
+  border-radius: 1%;
   padding: 2px;
   left: 1.5em;
-  top: 1em;
+  top: 1.1em;
   font-size: .5em;
 }
 
 .mealProjectHeader {
   position: absolute;
-  top: 130%;
-  left: 5%;
+  top: 25%;
+  left: 45%;
   font-family: 'Montserrat';
   font-size: 1.2em;
   z-index: 1;
@@ -58,7 +58,7 @@
   font-size: .9em;
   border-color: rgb(219, 219, 219);
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 1%;
   border-width: thin;
   background-color: white;
   height: 45%;
@@ -68,8 +68,9 @@
 .mealItSummary {
   position: relative;
   width: 45%;
-  left: 5%;
-  top: 50%;
+  top: -55%;
+  left: 45%;
+  bottom: 135%;
   z-index: 1;
 }
 
@@ -83,7 +84,7 @@
   font-size: .9em;
   border-color: rgb(219, 219, 219);
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 1%;
   border-width: thin;
   background-color: white;
   height: 45%;
@@ -92,8 +93,8 @@
 
 .googleCloneHeader {
   position: absolute;
-  bottom: 170%;
-  left: 53%;
+  top: 27%;
+  left: 7%;
   font-family: 'Montserrat';
   font-size: 1.2em;
 }
@@ -101,8 +102,9 @@
 .googleCloneSummary {
   position: relative;
   width: 45%;
-  left: 53%;
-  bottom: 170%;
+  left: 7%;
+  bottom: 50%;
+  z-index: 1;
 }
 
 
@@ -111,9 +113,9 @@
   border: solid;
   border-color: rgb(219, 219, 219);
   border-width: 1px;
-  border-radius: 20px;
+  border-radius: 1%;
   padding: 2px;
   left: 46em;
-  top: 2em;
+  top: 1.2em;
   font-size: .5em;
 }

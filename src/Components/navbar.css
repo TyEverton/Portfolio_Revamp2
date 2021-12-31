@@ -1,7 +1,7 @@
 /* LinkedIn Icon */
 .linkedInIcon {
   position: fixed;
-  left: 2%;
+  left: 95%;
   top: 3%;
   font-size: 2.5rem;
   color: #28c2ff;
@@ -18,7 +18,7 @@
 /* GitHub Icon */
 .gitHubIcon {
   position: fixed;
-  left: 2%;
+  left: 95%;
   top: 10%;
   font-size: 2.5rem;
   color: #28c2ff;

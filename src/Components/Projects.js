@@ -1,7 +1,7 @@
 import React from 'react'
 import './projects.css'
-import MealItYourWay from './Images/GoogleProject.jpg'
-import GoogleProject from './Images/MealItYourWay.jpg'
+import GoogleProject from './Images/GoogleProject.jpg'
+import MealItYourWay from './Images/MealItYourWay.jpg'
 
 const Projects = () => {
   return (

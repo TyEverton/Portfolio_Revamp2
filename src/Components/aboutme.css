@@ -1,13 +1,12 @@
 /* About Me Container */
 .aboutMeContainer {
-   position: absolute;
+  position: absolute;
   display: flex;
-  top: 15%;
-  left: 35%;
+  top: 43%;
+  left: 40%;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: left;
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
   height: 22%;
   width: 45%;
@@ -18,8 +17,8 @@
 /* Name Intro */
 .nameIntro {
   position: absolute;
-  top: 18%;
-  left: 2%;
+  top: 36%;
+  left: 40%;
   font-family: 'Montserrat';
   font-size: 1.5em;
 }
@@ -28,8 +27,8 @@
 /* About Me Intro */
 .aboutMeIntro {
   position: absolute;
-  left: 2%;
-  top: 15%;
+  left: 40%;
+  top: 32%;
   font-family: 'Montserrat';
   font-size: 1.5em;
 }
@@ -44,4 +43,14 @@
   font-size: 1.3em;
   text-align: left;
   width: 95%;
+}
+
+/* Personal Photo */
+.selfPhoto {
+  height: 22em;
+  width: 22em;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 35%;
+  left: 18%;
 }

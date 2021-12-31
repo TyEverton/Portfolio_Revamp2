@@ -3,14 +3,15 @@
 /* Tool Belt Header */
 .toolBeltHeader {
   position: absolute;
-  top: 105%;
-  left: 45%;
+  top: 98%;
+  left: 36%;
   z-index: 1;
+  font-size: 1.5em;
   font-family: 'Montserrat';
 }
 
 /* Tool Belt Container */
-.toolBeltIcons {
+.toolBeltContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -20,7 +21,7 @@
   font-size: 3.5em;
   gap: 7%;
   position: absolute;
-  top: 105%;
+  top: 104%;
   border: solid;
   padding: 4%;
   border-color: rgb(247, 247, 247);
