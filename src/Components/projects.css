@@ -42,8 +42,8 @@
 
 .mealProjectHeader {
   position: absolute;
-  top: 25%;
-  left: 45%;
+  top: 28%;
+  left: 35%;
   font-family: 'Montserrat';
   font-size: 1.2em;
   z-index: 1;
@@ -51,7 +51,6 @@
 
 .mealProjectBody {
   position: absolute;
-  text-align: left;
   top: 2%;
   left: 9%;
   font-family: 'Montserrat';
@@ -69,7 +68,7 @@
   position: relative;
   width: 45%;
   top: -55%;
-  left: 45%;
+  left: 35%;
   bottom: 135%;
   z-index: 1;
 }
@@ -103,7 +102,7 @@
   position: relative;
   width: 45%;
   left: 7%;
-  bottom: 50%;
+  bottom: 55%;
   z-index: 1;
 }
 
