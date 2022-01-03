@@ -6,18 +6,17 @@ import ResumeDownload from './Components/ResumeDownload'
 import AboutMe from './Components/AboutMe'
 import NavBar from './Components/NavBar'
 import Projects from './Components/Projects'
+import ReactDOM from "react-dom"
 
-function App() {
-  return (
-    <div>
+ReactDOM.render(
       <ContactForm />
       <ToolBelt />
       <ResumeDownload />
       <AboutMe />
       <NavBar />
-      <Projects />
-    </div>
+      <Projects />,
+      document.getElementById('root')
   )
-}
+
 
 export default App
