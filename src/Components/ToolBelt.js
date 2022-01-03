@@ -7,11 +7,10 @@ import { FaCss3Alt } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
 import { FaNodeJs } from 'react-icons/fa'
 
-
 const ToolBelt = () => {
   return (
     <div>
-      <h2 className="toolBeltHeader">The Tool Belt</h2>
+      <h2 className="toolBeltHeader">Some of the tools in my tool belt</h2>
       <section className="toolBeltContainer">
         <div className="htmlIcon">
           <FaHtml5 />
