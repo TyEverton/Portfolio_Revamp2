@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { Component, React } from 'react'
 import jsPDF from 'jspdf'
 import Resume from './Images/Resume.png'
 import './resumedownload.css'
