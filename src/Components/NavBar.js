@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className="linkedInIcon">
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/tyeverton/"
           >
             <FaLinkedin />
@@ -19,7 +19,7 @@ const NavBar = () => {
         <div className="gitHubIcon">
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             href="https://github.com/TyEverton"
           >
             <FaGithub />
