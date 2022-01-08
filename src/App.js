@@ -14,7 +14,7 @@ function App() {
       <ResumeDownload />
       <AboutMe />
       <NavBar />
-      <Projects />,
+      <Projects />
     </div>
   )
 }
