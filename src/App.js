@@ -1,4 +1,3 @@
-import './App.css'
 import React from 'react'
 import ContactForm from './Components/ContactForm'
 import ToolBelt from './Components/ToolBelt'
