@@ -21,15 +21,7 @@ const Projects = () => {
               Technologies to be Used: React, Google Places API, PostgreSQL,
               Massive
             </p>
-            <p></p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/TyEverton/Meal_It_Your_Way"
-            >
-              Github
-            </a>
-          </section>
+              </section>
         </section>
         <section className="googleCloneProjectBody">
           <img

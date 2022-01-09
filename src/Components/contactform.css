@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
+
 /* Contact Header */
 .contactHeader {
   position: absolute;
@@ -36,8 +38,8 @@
   border-color: rgb(173, 173, 173);
   border-radius: 5px;
   border-width: 1px;
- position: relative;
- left: 20%;
+  position: relative;
+  left: 20%;
 }
 
 /* Message Text Area */
@@ -50,7 +52,7 @@
   border-radius: 5px;
   border-width: 1px;
   position: relative;
- left: 20%;
+  left: 20%;
 }
 
 /* Contact Form Submit Button */
