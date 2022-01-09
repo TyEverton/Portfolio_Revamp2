@@ -19,9 +19,7 @@ const AboutMe = () => {
           Development Boot Camp, I am ready and excited to break into the
           industry and make a positive impact! 
         </p>
-        <p>
-          testing 123
-        </p>
+        
       </section>
     </div>
   )
