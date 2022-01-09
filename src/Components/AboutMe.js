@@ -17,8 +17,9 @@ const AboutMe = () => {
           dig deeper allows me to get an accurate idea of what the client is
           wanting and needing. As a recent graduate of Devmountain's Web
           Development Boot Camp, I am ready and excited to break into the
-          industry and make a positive impact!
+          industry and make a positive impact! 
         </p>
+        
       </section>
     </div>
   )
