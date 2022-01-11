@@ -1,5 +1,5 @@
 {
-  "homepage": "http://localhost/",
+  "homepage": ".",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "grunt": "^1.4.1"
   }
 }
