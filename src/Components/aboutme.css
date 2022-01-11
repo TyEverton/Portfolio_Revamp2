@@ -54,3 +54,23 @@
   bottom: 35%;
   left: 18%;
 }
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .aboutMeContainer {
+
+  }
+  .nameIntro {
+
+  }
+  .aboutMeIntro {
+
+  }
+  .aboutMeBody {
+
+  }
+  .selfPhoto {
+    
+  }
+}
