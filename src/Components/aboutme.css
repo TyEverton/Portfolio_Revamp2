@@ -57,9 +57,11 @@
 
 /* Media Queries */
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
   .aboutMeContainer {
-
+    height: 25%;
+    width: 10%;
+    font-size: .75em;
   }
   .nameIntro {
 
@@ -71,6 +73,6 @@
 
   }
   .selfPhoto {
-    
+
   }
 }
