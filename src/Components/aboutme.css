@@ -8,8 +8,8 @@
   flex-wrap: nowrap;
   justify-content: center;
   box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.05);
-  height: 22%;
-  width: 45%;
+  /* height: 22%;
+  width: 45%; */
   background-color: rgb(247, 247, 247);
   border-color: rgb(247, 247, 247);
   border-radius: 2%;
@@ -20,7 +20,7 @@
   top: 36%;
   left: 40%;
   font-family: 'Montserrat';
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 
@@ -30,7 +30,7 @@
   left: 40%;
   top: 32%;
   font-family: 'Montserrat';
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 
@@ -40,28 +40,51 @@
   top: 5%;
   left: 2%;
   font-family: 'Montserrat';
-  font-size: 1.3em;
+  /* font-size: 1.3em;
+  width: 95%; */
   text-align: left;
-  width: 95%;
+ 
 }
 
 /* Personal Photo */
 .selfPhoto {
-  height: 22em;
-  width: 22em;
+  /* height: 22em;
+  width: 22em; */
   border-radius: 10px;
   position: absolute;
-  bottom: 35%;
-  left: 18%;
+  bottom: 65%;
+  left: 10%;
 }
 
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media all and (min-width:320px)  { 
+  .aboutMeContainer{
+    top: 105%;
+    left: 30%;
+    height: 10%;
+    width: 50%;
+  }
+  .nameIntro{
+    font-size: 1em;
+    width: 50%;
+    top: 46%;
+    left: 30%;
+  }
+  .aboutMeIntro{
+    font-size: 1em;
+    top: 100%;
+    left: 29%;
+  }
+  .aboutMeBody {
+
+  }
   .selfPhoto {
-  height: 10px;
-  width: 10px;
+  height: 15em;
+  width: 15em;
+  left: 25%;
+  top: 15%;
   }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
@@ -82,8 +105,22 @@
 } */
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 
+  .aboutMeContainer{
+    height: 22%;
+    width: 45%;
+  }
+  .nameIntro {
+    font-size: 1.5em;
+  }
+  .aboutMeIntro {
+    font-size: 1.5em;
+  }
+  .aboutMeBody {
+    font-size: 1.3em;
+    width: 95%;
+  }
   .selfPhoto{
-    height: 22em;
+  height: 22em;
   width: 22em;
   }
  }
