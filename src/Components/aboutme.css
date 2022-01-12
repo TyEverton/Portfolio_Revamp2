@@ -111,9 +111,13 @@
   }
   .nameIntro {
     font-size: 1.5em;
+    top: 45%;
+    left: 45%;
   }
   .aboutMeIntro {
     font-size: 1.5em;
+    left: 40%;
+  top: 100%;
   }
   .aboutMeBody {
     font-size: 1.3em;
