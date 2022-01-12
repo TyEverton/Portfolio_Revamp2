@@ -116,15 +116,18 @@
   }
   .aboutMeIntro {
     font-size: 1.5em;
-    left: 40%;
-  top: 100%;
+    left: 30%;
+  top: 99%;
+  z-index: 1;
   }
   .aboutMeBody {
     font-size: 1.3em;
     width: 95%;
+    top: 1%;
   }
   .selfPhoto{
   height: 22em;
   width: 22em;
+  top: 30%;
   }
  }

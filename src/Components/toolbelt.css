@@ -152,9 +152,7 @@
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media (min-width:320px)  { 
-  .gitIcon {
-    font-size: 15px;
-  }
+ 
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 @media (min-width:481px)  { 
