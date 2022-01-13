@@ -85,7 +85,7 @@
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (min-width:320px)  { 
+@media (max-width:320px)  { 
   .contactHeader {
     top: 370%;
     left: 37%;
@@ -182,12 +182,12 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 
   .contactHeader {
-    top: 375%;
-    left: 35%;
+    top: 374%;
+    left: 37%;
   }
   .formContainer {
     top: 380%;
-    left: 35%;
+    left: 37%;
     height: 40%;
     width: 30%;
   }

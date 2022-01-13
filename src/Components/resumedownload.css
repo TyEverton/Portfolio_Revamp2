@@ -66,8 +66,8 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 
   .downloadBtn {
-    left: 94%;
-    top: 18%;
+    left: 45%;
+    top: 60%;
     height: 5%;
     width: 5%;
   }
