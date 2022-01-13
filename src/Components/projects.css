@@ -118,7 +118,7 @@
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (min-width:320px)  { 
+@media (max-width:320px)  { 
 .projectsHeader {
   left: 39.5%;
   height: 45px;
@@ -144,7 +144,7 @@
 
 }
 .mealItSummary {
-display: none;
+visibility: hidden;
 }
 .googleCloneProjectBody {
   background: none;
@@ -165,7 +165,7 @@ display: none;
 }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-@media (min-width:481px)  { 
+@media (max-width:481px)  { 
 .projectsHeader {
 
 }
@@ -198,7 +198,7 @@ display: none;
 }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-@media (min-width:641px)  { 
+@media (max-width:641px)  { 
   .projectsHeader {
 
   }
@@ -231,7 +231,7 @@ display: none;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:961px)  { 
+@media (max-width:961px)  { 
   .projectsHeader {
 
   }
@@ -264,7 +264,7 @@ display: none;
   }
  }
  /* big landscape tablets, laptops, and desktops */ 
-@media (min-width:1025px) { 
+@media (max-width:1025px) { 
   .projectsHeader {
 
   }
@@ -329,7 +329,13 @@ display: none;
   
   }
   .mealItSummary {
-  
+  position: relative;
+  width: 45%;
+  top: -55%;
+  left: 35%;
+  bottom: 135%;
+  z-index: 1;
+  display: text;
   }
   .googleCloneProjectBody {
   

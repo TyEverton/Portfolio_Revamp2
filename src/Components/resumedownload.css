@@ -32,7 +32,11 @@
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media (min-width:320px)  { 
 .downloadBtn {
-
+  left: 94%;
+  top: 18%;
+  height: 5%;
+  width: 5%;
+  position: absolute;
 }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
@@ -62,6 +66,9 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 
   .downloadBtn {
-  
+    left: 94%;
+    top: 18%;
+    height: 5%;
+    width: 5%;
   }
  }
