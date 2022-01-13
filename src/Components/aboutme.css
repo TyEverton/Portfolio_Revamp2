@@ -59,7 +59,7 @@
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (max-width:320px)  { 
+@media (max-width:390px)  { 
   .aboutMeContainer{
     top: 105%;
     left: 15%;
@@ -109,7 +109,7 @@
     height: 22%;
     width: 45%;
     top: 105%;
-    left: 30%
+    left: 30%;
   }
   .nameIntro {
     font-size: 1.5em;
@@ -119,8 +119,8 @@
   .aboutMeIntro {
     font-size: 1.5em;
     left: 30%;
-  top: 99%;
-  z-index: 1;
+    top: 99%;
+    z-index: 1;
   }
   .aboutMeBody {
     font-size: 1.3em;
