@@ -26,3 +26,42 @@
   border-color: #08a4e2;
   transition-duration: 300ms;
 }
+
+/* Media Queries */
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { 
+.downloadBtn {
+
+}
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px)  { 
+.downloadBtn {
+  
+}
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:641px)  { 
+  .downloadBtn {
+  
+  }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+  .downloadBtn {
+  
+  }
+ }
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+  .downloadBtn {
+  
+  }
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+  .downloadBtn {
+  
+  }
+ }

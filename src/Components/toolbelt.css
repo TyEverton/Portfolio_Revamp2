@@ -152,23 +152,156 @@
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media (min-width:320px)  { 
- 
+  .toolBeltHeader {
+
+  }
+  .toolBeltContainer {
+
+  }
+  .htmlIcon {
+
+  }
+  .cssIcon {
+
+  }
+  .jsIcon {
+
+  }
+  .nodeIcon {
+
+  }
+  .reactIcon {
+
+  }
+  .gitIcon {
+
+  }
+  
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 @media (min-width:481px)  { 
+ .toolBeltHeader {
 
+  }
+  .toolBeltContainer {
+
+  }
+  .htmlIcon {
+
+  }
+  .cssIcon {
+
+  }
+  .jsIcon {
+
+  }
+  .nodeIcon {
+
+  }
+  .reactIcon {
+
+  }
+  .gitIcon {
+    
+  }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 @media (min-width:641px)  { 
+  .toolBeltHeader {
 
+  }
+  .toolBeltContainer {
+
+  }
+  .htmlIcon {
+
+  }
+  .cssIcon {
+
+  }
+  .jsIcon {
+
+  }
+  .nodeIcon {
+
+  }
+  .reactIcon {
+
+  }
+  .gitIcon {
+    
+  }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  { 
+  .toolBeltHeader {
 
+  }
+  .toolBeltContainer {
+
+  }
+  .htmlIcon {
+
+  }
+  .cssIcon {
+
+  }
+  .jsIcon {
+
+  }
+  .nodeIcon {
+
+  }
+  .reactIcon {
+
+  }
+  .gitIcon {
+    
+  }
  }
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
-
+  .toolBeltHeader {
+    top: 160%;
+    left: 36%;
+    z-index: 1;
+    font-size: 1.5em;
+  }
+  .toolBeltContainer {
+    font-size: 3.5em;
+    gap: 7%;
+    position: absolute;
+    top: 165%;
+    border: solid;
+    padding: 4%;
+    border-color: rgb(247, 247, 247);
+    border-radius: 2%;
+    left: 35%;
+  }
+  .htmlIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .cssIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .jsIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .nodeIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .reactIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .gitIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
 }
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 

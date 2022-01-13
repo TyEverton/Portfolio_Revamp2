@@ -2,14 +2,10 @@
 .projectsHeader {
   background-color: transparent;
   position: absolute;
-  left: 30%;
-  height: 45px;
-  width: 6.5%;
-  top: 154.5%;
-  font-size: 1.5em;
+
   color: black;
   font-family: 'Montserrat';
-  font-size: 25px;
+ 
 }
 
 /* Project Container */
@@ -118,3 +114,209 @@
   top: 1.2em;
   font-size: .5em;
 }
+
+/* Media Queries */
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { 
+.projectsHeader {
+
+}
+.projectContainer {
+
+}
+.mealPhoto {
+
+}
+.mealProjectHeader {
+
+}
+.mealProjectBody {
+
+}
+.mealItSummary {
+
+}
+.googleCloneProjectBody {
+
+}
+.googleCloneHeader {
+
+}
+.googleCloneSummary {
+
+}
+.googleClonePhoto {
+
+}
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px)  { 
+.projectsHeader {
+
+}
+.projectContainer {
+
+}
+.mealPhoto {
+
+}
+.mealProjectHeader {
+
+}
+.mealProjectBody {
+
+}
+.mealItSummary {
+
+}
+.googleCloneProjectBody {
+
+}
+.googleCloneHeader {
+
+}
+.googleCloneSummary {
+
+}
+.googleClonePhoto {
+  
+}
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:641px)  { 
+  .projectsHeader {
+
+  }
+  .projectContainer {
+  
+  }
+  .mealPhoto {
+  
+  }
+  .mealProjectHeader {
+  
+  }
+  .mealProjectBody {
+  
+  }
+  .mealItSummary {
+  
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+  
+  }
+  .googleCloneSummary {
+  
+  }
+  .googleClonePhoto {
+    
+  }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+  .projectsHeader {
+
+  }
+  .projectContainer {
+  
+  }
+  .mealPhoto {
+  
+  }
+  .mealProjectHeader {
+  
+  }
+  .mealProjectBody {
+  
+  }
+  .mealItSummary {
+  
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+  
+  }
+  .googleCloneSummary {
+  
+  }
+  .googleClonePhoto {
+    
+  }
+ }
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+  .projectsHeader {
+
+  }
+  .projectContainer {
+  
+  }
+  .mealPhoto {
+  
+  }
+  .mealProjectHeader {
+  
+  }
+  .mealProjectBody {
+  
+  }
+  .mealItSummary {
+  
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+  
+  }
+  .googleCloneSummary {
+  
+  }
+  .googleClonePhoto {
+    
+  }
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+  .projectsHeader {
+    left: 30%;
+    height: 45px;
+    width: 6.5%;
+    top: 240%;
+    font-size: 1.5em;
+  }
+  .projectContainer {
+    top: 245%;
+    left: 30%;
+  }
+  .mealPhoto {
+  
+  }
+  .mealProjectHeader {
+  
+  }
+  .mealProjectBody {
+  
+  }
+  .mealItSummary {
+  
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+  
+  }
+  .googleCloneSummary {
+  
+  }
+  .googleClonePhoto {
+    
+  }
+ }

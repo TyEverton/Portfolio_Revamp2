@@ -16,8 +16,8 @@
 .formContainer {
   position: absolute;
   display: flex;
-  top: 270%;
-  left: 35%;
+  /* top: 270%;
+  left: 35%; */
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
@@ -81,3 +81,119 @@
   border-color: #08a4e2;
   transition-duration: 300ms;
 }
+
+/* Media Queries */
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { 
+  .contactHeader {
+
+  }
+  .formContainer {
+
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px)  { 
+  .contactHeader {
+
+  }
+  .formContainer {
+
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:641px)  { 
+  .contactHeader {
+
+  }
+  .formContainer {
+
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+  .contactHeader {
+
+  }
+  .formContainer {
+
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+ }
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+  .contactHeader {
+
+  }
+  .formContainer {
+
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+  .contactHeader {
+    top: 375%;
+    left: 35%;
+  }
+  .formContainer {
+    top: 380%;
+    left: 35%;
+    height: 40%;
+    width: 30%;
+  }
+  .input {
+
+  }
+  .textArea {
+
+  }
+  .submitButton {
+
+  }
+
+ }
