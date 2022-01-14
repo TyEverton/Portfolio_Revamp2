@@ -118,7 +118,7 @@
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (max-width:320px)  { 
+@media (min-width:320px)  { 
 .projectsHeader {
   left: 39.5%;
   height: 45px;
@@ -144,7 +144,7 @@
 
 }
 .mealItSummary {
-visibility: hidden;
+  
 }
 .googleCloneProjectBody {
   background: none;
@@ -323,19 +323,23 @@ visibility: hidden;
     font-size: .5em;
   }
   .mealProjectHeader {
-  
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    z-index: 1;
   }
   .mealProjectBody {
-  
+    
   }
   .mealItSummary {
-  position: relative;
+  position: absolute;
   width: 45%;
   top: -55%;
-  left: 35%;
+  left: 37%;
   bottom: 135%;
   z-index: 1;
-  display: text;
   }
   .googleCloneProjectBody {
   

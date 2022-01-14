@@ -14,7 +14,7 @@ const Projects = () => {
             className="mealPhoto"
             src={MealItYourWay}
           ></img>
-          <h3 className="mealProjectHeader">Meal It, Your Way</h3>
+          <h3 className="mealProjectHeader">Meal It, Your Way (in progress)</h3>
           <section className="mealItSummary">
             <p>Techologies Used: Figma</p>
             <p>

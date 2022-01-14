@@ -151,7 +151,7 @@
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (max-width:320px)  { 
+@media (min-width:320px)  { 
   .toolBeltHeader {
     font-size: 1em;
     top: 165%;
