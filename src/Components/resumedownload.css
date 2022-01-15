@@ -41,26 +41,40 @@
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 @media (min-width:481px)  { 
-.downloadBtn {
-  
-}
+  .downloadBtn {
+    left: 94%;
+    top: 18%;
+    height: 5%;
+    width: 5%;
+    position: absolute;
+  }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 @media (min-width:641px)  { 
   .downloadBtn {
-  
+    left: 94%;
+    top: 18%;
+    height: 5%;
+    width: 5%;
+    position: absolute;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  { 
   .downloadBtn {
-  
+    left: 45%;
+    top: 60%;
+    height: 5%;
+    width: 5%;
   }
  }
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .downloadBtn {
-  
+    left: 55%;
+    top: 70%;
+    height: 7%;
+    width: 7%;
   }
 }
 /* hi-res laptops and desktops */

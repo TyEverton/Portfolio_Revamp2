@@ -83,10 +83,16 @@
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .linkedInIcon {
-    
+    left: 64%;
+    top: 70.8%;
+    height: 5%;
+    width: 5%;
   }
   .gitHubIcon {
-
+    left: 69%;
+    top: 70.8%;
+    height: 5%;
+    width: 5%;
   }
 }
 /* hi-res laptops and desktops */

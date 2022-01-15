@@ -111,10 +111,16 @@
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 @media (min-width:481px)  { 
   .contactHeader {
-
+    position: absolute;
+    top: 350%;
+    left: 37%;
+    font-size: 1em;
   }
   .formContainer {
-
+    top: 360%;
+    left: 5%;
+    height: 40%;
+    width: 100%;
   }
   .input {
 
@@ -129,10 +135,16 @@
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 @media (min-width:641px)  { 
   .contactHeader {
-
+    position: absolute;
+    top: 350%;
+    left: 37%;
+    font-size: 1em;
   }
   .formContainer {
-
+    top: 360%;
+    left: 5%;
+    height: 40%;
+    width: 100%;
   }
   .input {
 
@@ -147,10 +159,15 @@
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  { 
   .contactHeader {
-
+    top: 392%;
+    left: 30%;
+    font-size: 1.5em;
   }
   .formContainer {
-
+    top: 400%;
+    left: 30%;
+    height: 50%;
+    width: 40%;
   }
   .input {
 
@@ -165,15 +182,15 @@
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .contactHeader {
-    top: 380%;
-    left: 37%;
+    top: 392%;
+    left: 30%;
     font-size: 1.5em;
   }
   .formContainer {
     top: 400%;
-    left: 37%;
-    height: 40%;
-    width: 30%;
+    left: 30%;
+    height: 50%;
+    width: 40%;
   }
   .input {
 
@@ -188,13 +205,13 @@
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 
   .contactHeader {
-    top: 374%;
-    left: 37%;
+    top: 369%;
+    left: 36%;
     font-size: 1.5em;
   }
   .formContainer {
-    top: 380%;
-    left: 37%;
+    top: 375%;
+    left: 36%;
     height: 40%;
     width: 30%;
   }

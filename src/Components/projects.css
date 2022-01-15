@@ -155,6 +155,7 @@
   background: none;
 }
 .googleCloneSummary {
+  
 }
 .googleClonePhoto {
   left: -25%;
@@ -163,7 +164,7 @@
 }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-@media (max-width:481px)  { 
+@media (min-width:481px)  { 
 .projectsHeader {
 
 }
@@ -196,7 +197,7 @@
 }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-@media (max-width:641px)  { 
+@media (min-width:641px)  { 
   .projectsHeader {
 
   }
@@ -229,121 +230,20 @@
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (max-width:961px)  { 
+@media (min-width:961px)  { 
   .projectsHeader {
-
-  }
-  .projectContainer {
-  
-  }
-  .mealPhoto {
-  
-  }
-  .mealProjectHeader {
-  
-  }
-  .mealProjectBody {
-  
-  }
-  .mealItSummary {
-  
-  }
-  .googleCloneProjectBody {
-  
-  }
-  .googleCloneHeader {
-  
-  }
-  .googleCloneSummary {
-  
-  }
-  .googleClonePhoto {
-    
-  }
- }
- /* big landscape tablets, laptops, and desktops */ 
-@media (min-width:1025px) { 
-  .projectsHeader {
-    left: 46%;
+    left: 18%;
     height: 45px;
     width: 6.5%;
-    top: 227%;
-    font-size: 1.5em;
-  }
-  .projectContainer {
-    top: 234%;
-    left: 19%;
-    width: 800px;
-    height: 800px;
-  }
-  .mealPhoto {
-    position: relative;
-    border: solid;
-    border-color: rgb(219, 219, 219);
-    border-width: 1px;
-    border-radius: 1%;
-    padding: 2px;
-    left: 1.5em;
-    top: 1.1em;
-    font-size: .5em;
-  }
-  .mealProjectHeader {
-    position: absolute;
-    top: 20%;
-    left: 37%;
-    font-family: 'Montserrat';
-    font-size: 1.2em;
-    z-index: 1;
-  }
-  .mealProjectBody {
-    
-  }
-  .mealItSummary {
-  position: absolute;
-  width: 45%;
-  top: 30%;
-  left: 37%;
-  bottom: 135%;
-  z-index: 1;
-  }
-  .googleCloneProjectBody {
-  
-  }
-  .googleCloneHeader {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    font-family: 'Montserrat';
-    font-size: 1.2em;
-  }
-  .googleCloneSummary {
-    position: relative;
-    width: 45%;
-    left: 7%;
-    bottom: 63%;
-    z-index: 1;
-  }
-  .googleClonePhoto {
-  padding: 2px;
-  left: 46em;
-  top: 1.2em;
-  font-size: .5em;
-  }
-}
-/* hi-res laptops and desktops */
-@media (min-width:1281px) { 
-  .projectsHeader {
-    left: 30%;
-    height: 45px;
-    width: 6.5%;
-    top: 239%;
+    top: 238%;
     font-size: 1.5em;
   }
   .projectContainer {
     top: 245%;
-    left:30%;
+    left: 18%;
     width: 800px;
     height: 800px;
+    background-color: rgb(255, 255, 255);
   }
   .mealPhoto {
     position: relative;
@@ -368,10 +268,10 @@
     
   }
   .mealItSummary {
-    position: absolute;
+  position: absolute;
   width: 45%;
-  top: 38%;
-  left: 35%;
+  top: -55%;
+  left: 37%;
   bottom: 135%;
   z-index: 1;
   }
@@ -385,9 +285,163 @@
   
   }
   .googleClonePhoto {
-  padding: 2px;
-  left: 46em;
-  top: 1.2em;
-  font-size: .5em;
+ position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    background-color: white;
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
+  }
+ }
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+  .projectsHeader {
+    left: 18%;
+    height: 45px;
+    width: 6.5%;
+    top: 238%;
+    font-size: 1.5em;
+  }
+  .projectContainer {
+    top: 245%;
+    left: 18%;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+  }
+  .mealPhoto {
+    position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
+  }
+  .mealProjectHeader {
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    z-index: 1;
+  }
+  .mealProjectBody {
+    
+  }
+  .mealItSummary {
+  position: absolute;
+  width: 45%;
+  top: -55%;
+  left: 37%;
+  bottom: 135%;
+  z-index: 1;
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+  }
+  .googleCloneSummary {
+  
+  }
+  .googleClonePhoto {
+  position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    background-color: white;
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
+  }
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+  .projectsHeader {
+    left: 30%;
+    height: 45px;
+    width: 6.5%;
+    top: 239%;
+    font-size: 1.5em;
+  }
+  .projectContainer {
+    top: 245%;
+    left:30%;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+  }
+  .mealPhoto {
+    position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
+  }
+  .mealProjectHeader {
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    z-index: 1;
+  }
+  .mealProjectBody {
+    
+  }
+  .mealItSummary {
+  position: absolute;
+  width: 45%;
+  top: 42%;
+  left: 35%;
+  bottom: 135%;
+  z-index: 1;
+  }
+  .googleCloneProjectBody {
+  
+  }
+  .googleCloneHeader {
+    position: absolute;
+    top: 27%;
+    left: 52%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+  }
+  .googleCloneSummary {
+    position: relative;
+    width: 45%;
+    left: 52%;
+    bottom: 55%;
+    z-index: 1;
+  }
+  .googleClonePhoto {
+  position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    background-color: white;
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
   }
  }
