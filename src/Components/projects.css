@@ -468,15 +468,15 @@
   .googleCloneHeader {
     position: absolute;
     top: 27%;
-    left: 52%;
+    left: 45%;
     font-family: 'Montserrat';
     font-size: 1.2em;
   }
   .googleCloneSummary {
     position: relative;
     width: 45%;
-    left: 52%;
-    bottom: 55%;
+    left: 45%;
+    bottom: 50%;
     z-index: 1;
   }
   .googleClonePhoto {
