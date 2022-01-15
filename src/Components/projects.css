@@ -368,10 +368,10 @@
     
   }
   .mealItSummary {
-  position: absolute;
+    position: absolute;
   width: 45%;
-  top: -55%;
-  left: 37%;
+  top: 38%;
+  left: 35%;
   bottom: 135%;
   z-index: 1;
   }
