@@ -122,44 +122,85 @@
 .projectsHeader {
   left: 39.5%;
   height: 45px;
-  top: 208%;
+  top: 215%;
   font-size: 1em;
 }
 .projectContainer {
   top: 220%;
-  width: 55%;
-  left: 20%;
-  background: none;
-  border: none;
+  width: 85%;
+  left: 6%;
+  background: red;
+  border: red;
+  height: 150%;
 }
 .mealPhoto {
-
+  position: relative;
+  border: solid;
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  border-radius: 1%;
+  padding: 2px;
+  left: 2%;
+  top: 10%;
+  font-size: .5em;
 }
 .mealProjectHeader {
-  top: -18%;
-  left: 10%;
+  top: -1%;
+  left: 6%;
   width: 90%;
 }
 .mealProjectBody {
-
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 1%;
+  border-width: thin;
+  background-color: white;
+  height: 48%;
+  width: 90%;
 }
 .mealItSummary {
-  
+  position: relative;
+  width: 45%;
+  top: -65%;
+  left: 55%;
+  bottom: 135%;
+  z-index: 1;
 }
 .googleCloneProjectBody {
-  background: none;
+  position: absolute;
+  text-align: left;
+  top: 52%;
+  left: 5%;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 1%;
+  border-width: thin;
+  background-color: white;
+  height: 45%;
+  width: 90%;
 }
 .googleCloneHeader {
-  top: -8%;
-  left: 17%;
+  top: -2%;
+  left: 5%;
   background: none;
 }
 .googleCloneSummary {
-  
+  position: relative;
+  width: 60%;
+  left: 5%;
+  bottom: 70%;
+  z-index: 1;
 }
 .googleClonePhoto {
-  left: -25%;
-  top: 1.2em;
+  left: 0%;
+  top: 25%;
   background: none;
 }
 }

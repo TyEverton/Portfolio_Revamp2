@@ -88,14 +88,14 @@
 @media (min-width:320px)  { 
   .contactHeader {
     position: absolute;
-    top: 350%;
-    left: 37%;
-    font-size: 1em;
+    top: 354%;
+    left: 34%;
+    font-size: 1.2em;
   }
   .formContainer {
     top: 360%;
     left: 5%;
-    height: 40%;
+    height: 48%;
     width: 100%;
   }
   .input {
