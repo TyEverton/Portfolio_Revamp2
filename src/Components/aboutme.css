@@ -66,7 +66,7 @@ body {
   .aboutMeContainer{
     top: 105%;
     left: 15%;
-    height: 10%;
+    height: 45%;
     width: 75%;
   }
   .nameIntro{
@@ -81,7 +81,13 @@ body {
     left: 37%;
   }
   .aboutMeBody {
-
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    font-family: 'Montserrat';
+    /* font-size: 1.3em;
+    width: 95%; */
+    text-align: left;
   }
   .selfPhoto {
   height: 15em;

@@ -131,7 +131,7 @@
   left: 6%;
   background: red;
   border: red;
-  height: 150%;
+  height: 140%;
 }
 .mealPhoto {
   position: relative;
@@ -141,7 +141,7 @@
   border-radius: 1%;
   padding: 2px;
   left: 2%;
-  top: 10%;
+  top: 12%;
   font-size: .5em;
 }
 .mealProjectHeader {
@@ -160,13 +160,13 @@
   border-radius: 1%;
   border-width: thin;
   background-color: white;
-  height: 48%;
+  height: 45%;
   width: 90%;
 }
 .mealItSummary {
   position: relative;
   width: 45%;
-  top: -65%;
+  top: -74.5%;
   left: 55%;
   bottom: 135%;
   z-index: 1;
@@ -174,7 +174,7 @@
 .googleCloneProjectBody {
   position: absolute;
   text-align: left;
-  top: 52%;
+  top: 50%;
   left: 5%;
   font-family: 'Montserrat';
   font-size: .9em;
@@ -183,7 +183,7 @@
   border-radius: 1%;
   border-width: thin;
   background-color: white;
-  height: 45%;
+  height: 47%;
   width: 90%;
 }
 .googleCloneHeader {
@@ -195,12 +195,12 @@
   position: relative;
   width: 60%;
   left: 5%;
-  bottom: 70%;
+  bottom: 73%;
   z-index: 1;
 }
 .googleClonePhoto {
   left: 0%;
-  top: 25%;
+  top: 23%;
   background: none;
 }
 }
