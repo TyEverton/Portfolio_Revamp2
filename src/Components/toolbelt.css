@@ -153,9 +153,9 @@
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media (min-width:320px)  { 
   .toolBeltHeader {
-    font-size: 1em;
-    top: 165%;
-    left: 36%;
+    font-size: 1.2em;
+    top: 163%;
+    left: 33%;
     z-index: 1;
   }
   .toolBeltContainer {

@@ -70,15 +70,15 @@ body {
     width: 75%;
   }
   .nameIntro{
-    font-size: 1em;
+    font-size: 1.2em;
     width: 75%;
     top: 55%;
     left: 5%;
   }
   .aboutMeIntro{
-    font-size: 1em;
-    top: 100%;
-    left: 37%;
+    font-size: 1.2em;
+    top: 98%;
+    left: 36%;
   }
   .aboutMeBody {
     position: absolute;
