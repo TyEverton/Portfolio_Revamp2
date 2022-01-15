@@ -264,14 +264,14 @@
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .projectsHeader {
-    left: 19%;
+    left: 46%;
     height: 45px;
     width: 6.5%;
-    top: 239%;
+    top: 227%;
     font-size: 1.5em;
   }
   .projectContainer {
-    top: 245%;
+    top: 234%;
     left: 19%;
     width: 800px;
     height: 800px;

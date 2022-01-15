@@ -165,10 +165,14 @@
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .contactHeader {
-
+    top: 380%;
+    left: 37%;
   }
   .formContainer {
-
+    top: 400%;
+    left: 37%;
+    height: 40%;
+    width: 30%;
   }
   .input {
 
