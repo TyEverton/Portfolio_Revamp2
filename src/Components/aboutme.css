@@ -43,10 +43,7 @@ body {
   top: 5%;
   left: 2%;
   font-family: 'Montserrat';
-  /* font-size: 1.3em;
-  width: 95%; */
   text-align: left;
- 
 }
 
 /* Personal Photo */
@@ -66,7 +63,7 @@ body {
   .aboutMeContainer{
     top: 105%;
     left: 15%;
-    height: 45%;
+    height: 37.5%;
     width: 75%;
   }
   .nameIntro{

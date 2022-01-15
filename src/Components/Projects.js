@@ -31,15 +31,15 @@ const Projects = () => {
           />
           <h3 className="googleCloneHeader">Google Clone</h3>
           <section className="googleCloneSummary">
-            <p>Technologies Used: React, CSS, HTML <a
+            <p>Technologies Used: React, CSS, HTML </p>
+          </section>
+          <a  className="googleGitHubLink"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/TyEverton/Google_Clone"
             >
               Github
-            </a></p>
-            
-          </section>
+            </a>
         </section>
       </div>
     </div>
