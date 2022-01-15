@@ -155,8 +155,6 @@
   background: none;
 }
 .googleCloneSummary {
-  display: none;
-  background: none;
 }
 .googleClonePhoto {
   left: -25%;
@@ -264,36 +262,72 @@
   }
  }
  /* big landscape tablets, laptops, and desktops */ 
-@media (max-width:1025px) { 
+@media (min-width:1025px) { 
   .projectsHeader {
-
+    left: 19%;
+    height: 45px;
+    width: 6.5%;
+    top: 239%;
+    font-size: 1.5em;
   }
   .projectContainer {
-  
+    top: 245%;
+    left: 19%;
+    width: 800px;
+    height: 800px;
   }
   .mealPhoto {
-  
+    position: relative;
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    border-width: 1px;
+    border-radius: 1%;
+    padding: 2px;
+    left: 1.5em;
+    top: 1.1em;
+    font-size: .5em;
   }
   .mealProjectHeader {
-  
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    z-index: 1;
   }
   .mealProjectBody {
-  
+    
   }
   .mealItSummary {
-  
+  position: absolute;
+  width: 45%;
+  top: 30%;
+  left: 37%;
+  bottom: 135%;
+  z-index: 1;
   }
   .googleCloneProjectBody {
   
   }
   .googleCloneHeader {
-  
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
   }
   .googleCloneSummary {
-  
+    position: relative;
+    width: 45%;
+    left: 7%;
+    bottom: 63%;
+    z-index: 1;
   }
   .googleClonePhoto {
-    
+  padding: 2px;
+  left: 46em;
+  top: 1.2em;
+  font-size: .5em;
   }
 }
 /* hi-res laptops and desktops */
