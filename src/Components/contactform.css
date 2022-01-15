@@ -88,15 +88,15 @@
 @media (min-width:320px)  { 
   .contactHeader {
     position: absolute;
-    top: 354%;
+    top: 394%;
     left: 34%;
     font-size: 1.2em;
   }
   .formContainer {
-    top: 360%;
+    top: 400%;
     left: 5%;
     height: 48%;
-    width: 100%;
+    width: 90%;
   }
   .input {
 
@@ -105,7 +105,22 @@
 
   }
   .submitButton {
-
+    background-color: transparent;
+    position: relative;
+    height: 10%;
+    width: 25%;
+    border-width: 1px;
+    border-color: #28c2ff;
+    border-radius: 15px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #28c2ff;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: 250ms;
+    position: relative;
+    left: 35%;
+    top: 0%;
   }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 

@@ -120,10 +120,10 @@
 /* smartphones, iPhone, portrait 480x320 phones */ 
 @media (min-width:320px)  { 
 .projectsHeader {
-  left: 39.5%;
+  left: 38%;
   height: 45px;
-  top: 215%;
-  font-size: 1em;
+  top: 213%;
+  font-size: 1.2em;
 }
 .projectContainer {
   top: 220%;
