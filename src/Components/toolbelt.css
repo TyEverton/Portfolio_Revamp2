@@ -284,7 +284,47 @@
  }
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
-  
+  .toolBeltHeader {
+    top: 157%;
+    left: 43%;
+    z-index: 1;
+    font-size: 1.5em;
+  }
+  .toolBeltContainer {
+    font-size: 3em;
+    gap: 7%;
+    position: absolute;
+    top: 165%;
+    border: solid;
+    left: 32%;
+    padding: 4%;
+    border-color: rgb(247, 247, 247);
+    border-radius: 2%;
+  }
+  .htmlIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .cssIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .jsIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .nodeIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .reactIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
+  .gitIcon {
+    height: 1.1em;
+    width: 1.0em;
+  }
 }
 /* hi-res laptops and desktops */
 @media (min-width:1281px) { 

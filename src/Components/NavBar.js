@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 const NavBar = () => {
   return (
     <div>
-      <section>
+      <section className='navBar'>
         <div className="linkedInIcon">
           <a
             target="_blank"

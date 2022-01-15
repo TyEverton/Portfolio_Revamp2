@@ -303,11 +303,11 @@
     left: 18%;
     height: 45px;
     width: 6.5%;
-    top: 238%;
+    top: 230%;
     font-size: 1.5em;
   }
   .projectContainer {
-    top: 245%;
+    top: 237%;
     left: 18%;
     width: 800px;
     height: 800px;
@@ -323,11 +323,13 @@
     left: 1.5em;
     top: 1.1em;
     font-size: .5em;
+    width: 28%;
+    height: 93%;
   }
   .mealProjectHeader {
     position: absolute;
     top: 28%;
-    left: 35%;
+    left: 42%;
     font-family: 'Montserrat';
     font-size: 1.2em;
     z-index: 1;
@@ -338,8 +340,8 @@
   .mealItSummary {
   position: absolute;
   width: 45%;
-  top: -55%;
-  left: 37%;
+  top: 40%;
+  left: 42%;
   bottom: 135%;
   z-index: 1;
   }
@@ -349,12 +351,16 @@
   .googleCloneHeader {
     position: absolute;
     top: 27%;
-    left: 7%;
+    left: 52%;
     font-family: 'Montserrat';
     font-size: 1.2em;
   }
   .googleCloneSummary {
-  
+    position: relative;
+    width: 45%;
+    left: 52%;
+    bottom: 55%;
+    z-index: 1;
   }
   .googleClonePhoto {
   position: relative;

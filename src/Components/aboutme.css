@@ -62,7 +62,7 @@ body {
 /* Media Queries */
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
-@media (max-width:428px)  { 
+@media (min-width:320px)  { 
   .aboutMeContainer{
     top: 105%;
     left: 15%;
@@ -91,23 +91,51 @@ body {
   }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */
-/* @media (min-width:481px)  { 
+@media (min-width:481px)  { 
 
-} */
+}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-/* @media (min-width:641px)  { 
+@media (min-width:641px)  { 
 
-} */
+}
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-/* @media (min-width:961px)  { 
+@media (min-width:961px)  { 
 
- } */
+ }
  /* big landscape tablets, laptops, and desktops */ 
-/* @media (min-width:1025px) { 
+@media (min-width:1025px) { 
+  .aboutMeContainer{
+    height: 37%;
+    width: 45%;
+    top: 105%;
+    left: 30%;
+  }
+  .nameIntro {
+    font-size: 1.5em;
+    top: 48%;
+    left: 48%;
+  }
+  .aboutMeIntro {
+    font-size: 1.5em;
+    left: 30%;
+    top: 97%;
+    z-index: 1;
+  }
+  .aboutMeBody {
+    font-size: 1.3em;
+    width: 95%;
+    top: 1%;
+  }
+  .selfPhoto{
+  height: 22em;
+  width: 22em;
+  top: 30%;
+  left: 18%
+  }
+ }
 
-} */
 /* hi-res laptops and desktops */
-@media (min-width:1200px) { 
+@media (min-width:1281px) { 
   .aboutMeContainer{
     height: 22%;
     width: 45%;
@@ -116,7 +144,7 @@ body {
   }
   .nameIntro {
     font-size: 1.5em;
-    top: 40%;
+    top: 43%;
     left: 45%;
   }
   .aboutMeIntro {
