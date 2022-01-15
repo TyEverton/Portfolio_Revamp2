@@ -182,12 +182,12 @@
  /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
   .contactHeader {
-    top: 392%;
+    top: 383%;
     left: 30%;
     font-size: 1.5em;
   }
   .formContainer {
-    top: 400%;
+    top: 390%;
     left: 30%;
     height: 50%;
     width: 40%;
