@@ -367,10 +367,8 @@
     border-radius: 1%;
     padding: 2px;
     left: 1.5em;
-    top: 1.1em;
+    top: 1em;
     font-size: .5em;
-    width: 28%;
-    height: 93%;
   }
   .mealProjectHeader {
     position: absolute;
@@ -450,7 +448,8 @@
     border-radius: 1%;
     padding: 2px;
     left: 1.5em;
-    top: 1.1em;
+    top: 1%;
+    height: 96%;
     font-size: .5em;
   }
   .mealProjectHeader {
